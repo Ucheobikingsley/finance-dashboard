@@ -21,12 +21,11 @@ function App() {
           <Welcome />
           <Overview />
           <div style={style.flex__wrap} className="class_flex_justify">
-            <div>
+        
               <LineChart />
-            </div>
-            <div>
+     
               <CardExp />
-            </div>
+           
           </div>
           <div style={style.flex__wrap} className="class_flex_justify">
             <PaymentHis />
@@ -53,9 +52,9 @@ const style = {
 
   flex__wrap: {
     display: "flex",
-    flexWrap: "wrap",
+    alignItems: "stretch",
     width: "100%",
-    marginBottom: "20px",
+    marginBottom: "10px",
     // alignItems: "stretch",
   },
 };

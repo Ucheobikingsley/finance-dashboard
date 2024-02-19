@@ -72,7 +72,7 @@ function LineChart() {
 
 const styles = {
   line_container: {
-    width: "680px",
+    width: "67%",
     height: "100%",
     backgroundColor: "#fff",
     marginRight: "10px",

@@ -167,7 +167,7 @@ function PaymentHis() {
 
 const styles = {
   expenses__card: {
-    width: "360px",
+    width: "22%",
     // position: relative;
     marginBottom: "30px",
     marginRight: "0 9px",

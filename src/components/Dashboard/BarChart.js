@@ -77,10 +77,10 @@ function BarChart() {
 
 const styles = {
   line__container: {
-    width: "50%",
-    height: "380px",
+    width: "66%",
+ 
     backgroundColor: "#fff",
-    marginLeft: "15px",
+    marginLeft: "10px",
     padding: "10px",
     borderRadius: "6px",
   },

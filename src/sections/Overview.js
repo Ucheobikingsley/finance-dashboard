@@ -6,7 +6,7 @@ function Overview() {
     <div className="container_card">
       <div
         className="inner__container__card class_flex_justify"
-        style={{ display: "flex", flexWrap: "wrap", gap: "18px" }}
+        style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}
       >
         <div style={style.card}>
           <div style={{ color: "color: #1f2c73" }}>Total Balance</div>
@@ -35,10 +35,10 @@ function Overview() {
 
 const style = {
   card: {
-    width: "240px",
-    height: "150px",
+    width: "24%",
+
     // position: relative;
-    marginBottom: "30px",
+    marginBottom: "10px",
     boxShadow:
       "rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px",
     background: "rgb(255, 255, 255)",

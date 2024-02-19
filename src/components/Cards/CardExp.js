@@ -78,7 +78,7 @@ function CardExp() {
 
 const styles = {
   expenses__card: {
-    width: "360px",
+    width: "23%",
     // position: relative;
     marginBottom: "30px",
     boxShadow:
